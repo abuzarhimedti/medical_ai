@@ -46,12 +46,12 @@ THEMES = {
         "sidebar_bg": "#F0F7F4", "shadow": "rgba(27,107,58,0.12)",
     },
     "dark": {
-         "bg": "#F8FFF9", "surface": "#FFFFFF", "surface2": "#F0F7F4",
-        "text": "#1A3A2A", "muted": "#5A7A6A", "border": "#C6E6D0",
-        "primary": "#2E9E5B", "primary_dark": "#1B6B3A",
-        "header_grad": "linear-gradient(135deg, #1B6B3A, #2E9E5B)",
-        "card_bg": "#FFFFFF", "input_bg": "#FFFFFF",
-        "sidebar_bg": "#F0F7F4", "shadow": "rgba(27,107,58,0.12)",
+        "bg": "#0D1117", "surface": "#161B22", "surface2": "#21262D",
+        "text": "#E6EDF3", "muted": "#7D8590", "border": "#30363D",
+        "primary": "#00B4BD", "primary_dark": "#007B7F",
+        "header_grad": "linear-gradient(135deg, #0D2B45, #007B7F)",
+        "card_bg": "#161B22", "input_bg": "#21262D",
+        "sidebar_bg": "#161B22", "shadow": "rgba(0,0,0,0.3)",
     },
     "green": {
         "bg": "#0A1F0F", "surface": "#112218", "surface2": "#193D24",
