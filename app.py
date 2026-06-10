@@ -1,4 +1,9 @@
 import streamlit_authenticator as stauth
+import streamlit as st
+import ai_engine
+import json
+import os
+from datetime import datetime
 
 credentials = {
     "usernames": {
@@ -24,11 +29,6 @@ if authentication_status == False:
 elif authentication_status == None:
     st.warning("أدخل بياناتك")
     st.stop()
-import streamlit as st
-import ai_engine
-import json
-import os
-from datetime import datetime
 
 st.set_page_config(page_title="نظام sudan 249  الطبي الذكي", page_icon="🏥", layout="wide")
 
