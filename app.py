@@ -47,7 +47,7 @@ THEMES = {
     },
     "dark": {
         "bg": "#0D1117", "surface": "#161B22", "surface2": "#21262D",
-        "text": "#E6EDF3", "muted": "#7D8590", "border": "#30363D",
+        "text": "#1A3A2A", "muted": "#5A7A6A", "border": "#C6E6D0",
         "primary": "#00B4BD", "primary_dark": "#007B7F",
         "header_grad": "linear-gradient(135deg, #0D2B45, #007B7F)",
         "card_bg": "#161B22", "input_bg": "#21262D",
@@ -143,7 +143,7 @@ with st.sidebar:
     st.markdown(f"""
     <div style="text-align:center;padding:16px 0 8px">
         <div style="font-size:42px">🏥</div>
-        <div style="font-size:15px;font-weight:900;color:{T['primary']}">نظام التشخيص الذكي</div>
+        <div style="font-size:15px;font-weight:900;color:{T['primary']}">نظام sudan 249 الذكي</div>
         <div style="font-size:11px;color:{T['muted']};margin-top:2px">AI Medical Diagnosis</div>
     </div>
     """, unsafe_allow_html=True)
@@ -185,7 +185,7 @@ with st.sidebar:
 if st.session_state.page == "🏠 الرئيسية":
     st.markdown(f"""
     <div class="main-header">
-        <h1 style="color:white;font-size:2rem;margin:0">🏥 نظام التشخيص الطبي الذكي</h1>
+        <h1 style="color:white;font-size:2rem;margin:0">🏥 نظام sudan 249 الطبي الذكي</h1>
         <p style="color:rgba(255,255,255,0.8);margin:0.5rem 0 0">من الأعراض إلى التشخيص — بذكاء، دقة، وسرعة</p>
     </div>
     """, unsafe_allow_html=True)
