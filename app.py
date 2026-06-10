@@ -1,10 +1,37 @@
 import streamlit_authenticator as stauth
+
 import streamlit as st
+
 import ai_engine
 import json
 import os
 from datetime import datetime
+credentials = {
+    "usernames": {
+        "user1": {
+            "name": "المستخدم الأول",
+            "password": "123456"
+        }
+    }
+}
 
+authenticator = stauth.Authenticate(
+    credentials,
+    "my_app",
+    "secret_key_123",
+    cookie_expiry_days=30
+)
+authenticator.login(location="main")
+name = st.session_state.get("name")
+authentication_status = st.session_state.get("authentication_status")
+username = st.session_state.get("username")
+
+if authentication_status == False:
+    st.error("اسم المستخدم أو كلمة المرور خاطئة")
+    st.stop()
+elif authentication_status == None:
+    st.warning("أدخل بياناتك")
+    st.stop()
 
 st.set_page_config(page_title="نظام sudan 249  الطبي الذكي", page_icon="🏥", layout="wide")
 
